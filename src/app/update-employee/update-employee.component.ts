@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Employee } from '../employee';
 import { ActivatedRoute, Router } from '@angular/router';
 import { EmployeeService } from '../employee.service';
-import { Observable } from "rxjs";
 import { EmployeeDetailsComponent } from '../employee-details/employee-details.component';
+
 
 @Component({
   selector: "app-update-employee",
